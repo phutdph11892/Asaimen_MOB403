@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#18196E"
+    tools:context=".activity.ThongTinKhachHangActivity"
+    android:orientation="vertical"
+    >
+<LinearLayout
+    android:layout_marginLeft="20dp"
+    android:orientation="vertical"
+   android:gravity="center"
+    android:background="@drawable/boder"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginRight="20dp"
+    android:layout_marginTop="80dp"
+    android:layout_marginBottom="80dp">
+<TextView
+
+
+    android:textColor="#000000"
+    android:textStyle="bold"
+    android:layout_marginLeft="5dp"
+    android:layout_marginTop="5dp"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="Thong tin khach hang"
+    android:textSize="30sp"/>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="35dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+      <EditText
+          android:layout_margin="5dp"
+          android:id="@+id/edtTenKhachHang"
+          android:inputType="text"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:hint="Nhap ten khach hang"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/edtSoDienThoai"
+            android:inputType="phone"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="So Dien Thoai"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <com.google.android.material.textfield.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <EditText
+            android:layout_margin="5dp"
+            android:id="@+id/edtEmailKhachHang"
+            android:inputType="textEmailAddress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nhap ten khach hang"/>
+    </com.google.android.material.textfield.TextInputLayout>
+    <LinearLayout
+       android:gravity="center"
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginBottom="20dp">
+   <Button
+       android:layout_marginRight="70dp"
+       android:background="#6af1ff"
+       android:textColor="#28588c"
+       android:textSize="15sp"
+       android:id="@+id/btnXacNhan"
+       android:layout_width="wrap_content"
+       android:layout_height="wrap_content"
+       android:text="Xac Nhan"/>
+        <Button
+            android:background="#6af1ff"
+            android:textColor="#28588c"
+            android:textSize="15sp"
+            android:id="@+id/btnTroVe"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Tro Ve"/>
+    </LinearLayout>
+</LinearLayout>
+</LinearLayout>
